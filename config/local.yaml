@@ -1,0 +1,5 @@
+env: "local" #dev, prod
+db: "postgres://postgres:coffice@213.226.127.170/orders?sslmode=disable"
+grpc:
+  port: 45322
+  timeout: 10h

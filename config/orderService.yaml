@@ -1,0 +1,11 @@
+type: google.api.Service
+
+config_version: 3
+
+http:
+  rules:
+    - selector: orders.OrderService.CreateOrder
+      post: /create-orders
+      body: "*"
+    - selector: orders.OrderService.GetOrder
+      get: /get-orders
